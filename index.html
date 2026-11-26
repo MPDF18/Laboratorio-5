@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página oficial de la Universidad Tecnológica de Panamá">
+  <title>Universidad Tecnológica de Panamá</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Universidad Tecnológica de Panamá</h1>
+    <nav class="navbar">
+      <a class="nav-link" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#contenido">Contenido</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
+    </nav>
+    <input type="search" placeholder="Buscar videos" aria-label="Buscar videos">
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido</h2>
+      <p>Esta es la página oficial de la Universidad Tecnológica de Panamá.</p>
+    </section>
+
+    <section id="contenido">
+      <h2>Contenido</h2>
+      <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>correo@utp.ac.pa</p>
+    </section>
+
+    <section id="video-player">
+      <h2>Reproductor de Video</h2>
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <button type="button" class="btn">Suscribirse</button>
+    </section>
+
+    <section id="comentarios">
+      <h2>Comentarios</h2>
+      <textarea rows="3" placeholder="Escribe un comentario" aria-label="Comentario"></textarea>
+      <button type="button" class="btn">Comentar</button>
+    </section>
+  </main>
+
+  <aside id="sugeridos">
+    <h2>Videos Sugeridos</h2>
+    <article class="card">Video 1</article>
+    <article class="card">Video 2</article>
+    <article class="card">Video 3</article>
+  </aside>
+
+  <footer id="pie">
+    <p>&copy; 2026 UTP. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
